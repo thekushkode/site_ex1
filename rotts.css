@@ -1,1 +1,81 @@
 /* CSS sheet for H&H Fan Page*/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background: url(rottpics/background.png) no-repeat center center fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    opacity: .1;
+    height: 100%;
+    width: 100%;
+    color: black;
+    position: absolute;
+}
+
+.red_border {
+    border: darkred;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rottfacts {
+    color: darkred;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+/* doesnt work with nav links?? */
+/* li:hover {
+    color: darkred;
+} */
+
+.float_left {
+    float: left;
+    padding-left: 10%;
+}
+
+.float_right {
+    float: right;
+    padding-right: 10%;
+}
+
+.column_left {
+    float: left;
+    width: 40%
+}
+
+.column_right {
+    float: right;
+    width: 40%
+}
+
+.clear:after {
+    clear: both;
+}
+
+.white_text {
+    color: white;
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
